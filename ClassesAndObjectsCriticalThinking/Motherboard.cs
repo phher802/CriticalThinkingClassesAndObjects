@@ -17,6 +17,14 @@ namespace ClassesAndObjectsCriticalThinking
 
         // constructor (SPAWNER)
 
+        public Motherboard(string manufacturer, CPU cpu, RAM ram, HardDrive hardDrive, GPU gpu)
+        {
+            this.manufacturer = manufacturer;
+            processor = cpu;
+            temporaryMemory = ram;
+            storage = hardDrive;
+            graphics = gpu;
+        }
 
         // methods (CAN DO)
 

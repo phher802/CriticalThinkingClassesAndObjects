@@ -13,7 +13,11 @@ namespace ClassesAndObjectsCriticalThinking
         public string brand;
 
         // constructor (SPAWNER)
-
+        public RAM(double totalGB, string brand)
+        {
+            totalGigabytes = totalGB;
+            this.brand = brand;
+        }
 
         // method (CAN DO)
 
