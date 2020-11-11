@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassesAndObjectsCriticalThinking
 {
-    class CPU  //central process unit
+    class CPU  //central process unit; performs basic math, logic, controlling, input/output ops specified by instructions in program
     {
         // member variable (HAS A)
         public string manufacturer;
@@ -14,7 +14,11 @@ namespace ClassesAndObjectsCriticalThinking
 
 
         // constructor (SPAWNER)
-
+        public CPU(string manufacturer, string name)
+        {
+            this.manufacturer = manufacturer;
+            this.name = name;
+        }
 
         // methods (CAN DO)
 
