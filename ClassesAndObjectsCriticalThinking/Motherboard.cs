@@ -32,11 +32,15 @@ namespace ClassesAndObjectsCriticalThinking
         public void InstallApplication(Applications applicationsObject)
         {
             // take an Application object as a parameter
-            Applications application = applicationsObject;
-            storage.applicationsInHardDrive.Add(application);
-            
-            
+            //add application to ApplicationInHardDrive variable in HardDrive
 
+            Applications application = applicationsObject;
+
+            if (temporaryMemory.totalGigabytes > application.requireRAM && storage.totalStorage > application.requireStorage)
+            { 
+                storage.applicationsInHardDrive.Add(application);
+            }
+           
         }
 
 
