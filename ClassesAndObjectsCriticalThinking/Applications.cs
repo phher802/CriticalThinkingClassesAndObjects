@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassesAndObjectsCriticalThinking
 {
-    class Applications
+    public abstract class Applications
     {
         // member variables (HAS A)
         public string applicationName;
