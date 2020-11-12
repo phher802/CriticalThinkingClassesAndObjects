@@ -29,9 +29,13 @@ namespace ClassesAndObjectsCriticalThinking
         }
 
         // methods (CAN DO)
-        public void InstallApplication(string applicationsObject)
+        public void InstallApplication(Applications applicationsObject)
         {
             // take an Application object as a parameter
+            Applications application = applicationsObject;
+            storage.applicationsInHardDrive.Add(application);
+            
+            
 
         }
 
