@@ -21,8 +21,11 @@ namespace ClassesAndObjectsCriticalThinking
             this.totalStorage = totalStorage;
             availableStorage = availStorage;
 
-            applicationsInHardDrive = new List<Applications>();
             gamesInHardDrive = new List<Games>();
+            Games rollerCoasterTycoon = new Games();
+            gamesInHardDrive.Add(rollerCoasterTycoon);
+
+            
         }
 
         // methods (CAN DO)

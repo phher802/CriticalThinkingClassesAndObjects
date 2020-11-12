@@ -10,11 +10,12 @@ namespace ClassesAndObjectsCriticalThinking
     {
         // member variable (HAS A)
         public double requiredEffectiveMemory;
+       
 
         // constructor (SPAWNER)
-        public Games()
+        public Games(double requiredEffectiveMemory)
         {
-               requiredEffectiveMemory = 50;
+               this.requiredEffectiveMemory = requiredEffectiveMemory;
         }
 
 
