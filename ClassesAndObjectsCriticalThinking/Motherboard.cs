@@ -34,12 +34,12 @@ namespace ClassesAndObjectsCriticalThinking
             // take an Application object as a parameter
             //add application to ApplicationInHardDrive variable in HardDrive
 
-            Applications application = applicationsObject;
+            //Applications application = applicationsObject;
 
-            if (temporaryMemory.totalGigabytes > application.requireRAM && storage.totalStorage > application.requireStorage)
-            { 
-                storage.applicationsInHardDrive.Add(application);
-            }
+            //if (temporaryMemory.totalGigabytes > application.requireRAM && storage.totalStorage > application.requireStorage)
+            //{ 
+            //    storage.applicationsInHardDrive.Add(application);
+            //}
            
         }
 

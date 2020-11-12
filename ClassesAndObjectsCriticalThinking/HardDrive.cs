@@ -19,18 +19,12 @@ namespace ClassesAndObjectsCriticalThinking
             this.totalStorage = totalStorage;
             availableStorage = availStorage;
 
+            applicationsInHardDrive = new List<Applications>();
            
         }
 
         // methods (CAN DO)
-        public void AddNewApps()
-        {
-            applicationsInHardDrive = new List<Applications>();
-
-            Applications app = new Applications();
-            applicationsInHardDrive.Add(app);
-
-        }
+        
 
     }
 }

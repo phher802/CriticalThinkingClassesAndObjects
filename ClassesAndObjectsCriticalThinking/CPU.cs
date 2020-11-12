@@ -21,8 +21,21 @@ namespace ClassesAndObjectsCriticalThinking
         }
 
         // methods (CAN DO)
+        public void ProcessInstall(Applications app, HardDrive hardDrive, RAM ram)
+        {
+            Applications application = app;
+            hardDrive.applicationsInHardDrive.Add(application);
+         
+        }
 
+        public bool CheckRequirements(Applications app, HardDrive hardDrive, RAM ram)
+        {
+            if (ram.totalGigabytes > app.requireRAM && hardDrive.totalStorage > app.requireStorage)
+            {
+                ProcessInstall(app, hardDrive, ram);
+            }
 
-
+            return true;
+        }
     }
 }
