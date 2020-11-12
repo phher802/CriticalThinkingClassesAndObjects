@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassesAndObjectsCriticalThinking
 {
-    class TextEditor
+    public abstract class TextEditor : Applications
     {
     }
 }

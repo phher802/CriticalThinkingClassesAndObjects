@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace ClassesAndObjectsCriticalThinking
 {
-    class Games
+    class Games : Applications
     {
+        // member variable (HAS A)
+        public double requiredEffectiveMemory;
+
+        // constructor (SPAWNER)
+        public Games()
+        {
+               requiredEffectiveMemory = 50;
+        }
+
+
+        // methods (CAN DO)
+
+
     }
 }
