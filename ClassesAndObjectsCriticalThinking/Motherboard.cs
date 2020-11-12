@@ -14,6 +14,8 @@ namespace ClassesAndObjectsCriticalThinking
         public RAM temporaryMemory;
         public HardDrive storage;
         public GPU graphics;
+       
+
 
         // constructor (SPAWNER)
 
@@ -27,7 +29,11 @@ namespace ClassesAndObjectsCriticalThinking
         }
 
         // methods (CAN DO)
+        public void InstallApplication(string applicationsObject)
+        {
+            // take an Application object as a parameter
 
+        }
 
 
 

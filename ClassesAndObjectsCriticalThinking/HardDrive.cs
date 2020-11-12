@@ -11,12 +11,26 @@ namespace ClassesAndObjectsCriticalThinking
         // member variables (HAS A)
         public double totalStorage;
         public double availableStorage;
+        public List<Applications> applicationsInHardDrive;
 
         // constructor (SPAWNER)
+        public HardDrive(double totalStorage, double availStorage)
+        {
+            this.totalStorage = totalStorage;
+            availableStorage = availStorage;
 
+           
+        }
 
         // methods (CAN DO)
+        public void AddNewApps()
+        {
+            applicationsInHardDrive = new List<Applications>();
 
+            Applications app = new Applications();
+            applicationsInHardDrive.Add(app);
+
+        }
 
     }
 }
